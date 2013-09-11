@@ -1,0 +1,11 @@
+http://geekswithblogs.net/shaunxu/archive/2010/05/06/localization-in-asp.net-mvc-ndash-3-days-investigation-1-day.aspx
+
+http://blogs.shaunxu.me/archive/2012/09/04/localization-in-asp.net-mvc-ndash-upgraded.aspx
+
+http://dotnetbuilder.wordpress.com/2011/06/03/globalization-in-mvc-3-with-razor/
+
+http://afana.me/post/aspnet-mvc-internationalization.aspx
+
+http://afana.me/post/aspnet-mvc-internationalization-part-2.aspx
+
+http://www.codeproject.com/Articles/181738/Creating-a-Bilingual-ASP-NET-MVC3-Application-Part
