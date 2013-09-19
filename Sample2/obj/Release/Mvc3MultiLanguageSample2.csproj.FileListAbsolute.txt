@@ -1,5 +1,0 @@
-C:\Users\Leandro\Documents\Projetos\ASP.NET MVC Multi-Language\MvcMultiLanguageSample2\bin\Mvc3MultiLanguageSample2.dll
-C:\Users\Leandro\Documents\Projetos\ASP.NET MVC Multi-Language\MvcMultiLanguageSample2\bin\Mvc3MultiLanguageSample2.pdb
-C:\Users\Leandro\Documents\Projetos\ASP.NET MVC Multi-Language\MvcMultiLanguageSample2\obj\Release\Mvc3MultiLanguageSample2.csprojResolveAssemblyReference.cache
-C:\Users\Leandro\Documents\Projetos\ASP.NET MVC Multi-Language\MvcMultiLanguageSample2\obj\Release\Mvc3MultiLanguageSample2.dll
-C:\Users\Leandro\Documents\Projetos\ASP.NET MVC Multi-Language\MvcMultiLanguageSample2\obj\Release\Mvc3MultiLanguageSample2.pdb
