@@ -79,7 +79,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to MVC Multi-linguagens &lt;português&gt;.
+        ///   Looks up a localized string similar to MVC3 Multi-linguagens Exemplo 1 &lt;português&gt;.
         /// </summary>
         internal static string NomeAplicacao {
             get {
