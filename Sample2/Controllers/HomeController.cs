@@ -1,19 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Web;
 using System.Web.Mvc;
 
 namespace MvcMultiLanguageSample2.Controllers {
-    public class HomeController : Controller {
+    public class HomeController : BaseController {
+
         public ActionResult Index() {
-            ViewBag.Message = "Welcome to ASP.NET MVC!";
+
+            //-------------------------------------------
+            // Linguagem Atribuida a Thread da Aplicação
+            //-------------------------------------------
+            var culture = Thread.CurrentThread.CurrentUICulture;
+
+            ViewBag.Culture = String.Format("{0} / {1} / {2}", culture.Name, culture.NativeName, culture.DisplayName);
+
+            //-------------------------------------------
+            // Linguagem Configurado no Navegador do Usuário
+            //-------------------------------------------
+            if (Request.UserLanguages != null && Request.UserLanguages.Any())
+                ViewBag.BrowserCulture = Request.UserLanguages[0];
 
             return View();
         }
 
-        public ActionResult About() {
-            return View();
-        }
     }
 }

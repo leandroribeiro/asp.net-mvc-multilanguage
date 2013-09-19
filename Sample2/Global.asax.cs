@@ -15,7 +15,20 @@ namespace MvcMultiLanguageSample2 {
         }
 
         public static void RegisterRoutes(RouteCollection routes) {
+
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+
+            //routes.MapRoute(
+            //   "LogOn", // Route name
+            //   "Account/{action}", // URL with parameters
+            //   new { controller = "Account", action = "LogOn" } // Parameter defaults
+            //);
+
+            routes.MapRoute(
+               "Localization", // Route name
+               "{lang}/{controller}/{action}/{id}", // URL with parameters
+               new { controller = "Home", action = "Index", id = UrlParameter.Optional } // Parameter defaults
+            );
 
             routes.MapRoute(
                 "Default", // Route name

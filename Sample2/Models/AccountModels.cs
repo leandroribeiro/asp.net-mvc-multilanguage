@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 using System.Web.Mvc;
 using System.Web.Security;
+using MvcMultiLanguageSample2.Attributes;
 
 namespace MvcMultiLanguageSample2.Models {
 
@@ -26,8 +27,12 @@ namespace MvcMultiLanguageSample2.Models {
     }
 
     public class LogOnModel {
-        [Required]
-        [Display(Name = "User name")]
+
+        [Required(
+            ErrorMessageResourceName = "LogOnModel_UserName_Required",
+            ErrorMessageResourceType = typeof(Resources.Global))]
+        //[Display(Name = "User name")]
+        [LocalizationDisplayName("LogOnModel_UserName_Required", typeof(Resources.Global))]
         public string UserName { get; set; }
 
         [Required]
