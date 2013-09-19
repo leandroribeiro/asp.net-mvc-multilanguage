@@ -13,11 +13,11 @@ namespace Mvc3MultiLanguageSample1 {
         public static void RegisterRoutes(RouteCollection routes) {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapRoute(
-               "LogOn", // Route name
-               "Account/{action}", // URL with parameters
-               new { controller = "Account", action = "LogOn" } // Parameter defaults
-           );
+            // routes.MapRoute(
+            //    "LogOn", // Route name
+            //    "Account/{action}", // URL with parameters
+            //    new { controller = "Account", action = "LogOn" } // Parameter defaults
+            //);
 
             routes.MapRoute(
                "Localization", // Route name

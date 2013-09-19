@@ -1,13 +1,18 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = this.LocalResources("Titulo");
 }
-
-<h2>@ViewBag.Message</h2>
-<h3>Mensagem Global: @Resources.Global.MensagemGlobal</h3>
-@*<h3>Mensagem Local: @this.LocalResources("~/Home/Index", "MensagemLocal")</h3>*@
-<h3>Mensagem Local: @this.LocalResources("MensagemLocal")</h3>
-<h4>@ViewBag.Culture</h4>
-<p>
-    
-    To learn more about ASP.NET MVC visit <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
-</p>
+<div style="float: left; margin-right: 40px;">
+    <p><strong>Linguagem do navegador:</strong>&nbsp;@ViewBag.BrowserCulture
+        <br />
+        <strong>Cultura selecionada:</strong>&nbsp;@ViewBag.Culture
+    </p>
+</div>
+<div style="float: left;">
+    <p><strong>Exemplo de mensagem Global:</strong>&nbsp;@Resources.Global.MensagemGlobal
+        <br />
+        <strong>Exemplo de mensagem Local:</strong>&nbsp;@this.LocalResources("MensagemLocal")
+    </p>
+</div>
+<div class="clear">
+</div>
+<br />

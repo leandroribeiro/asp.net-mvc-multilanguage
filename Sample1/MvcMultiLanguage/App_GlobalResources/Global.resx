@@ -117,7 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="HomeIndex" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
   <data name="MensagemGlobal" xml:space="preserve">
     <value>Mensagem global padrão !</value>
+  </data>
+  <data name="NomeAplicacao" xml:space="preserve">
+    <value>MVC Multi-linguagens &lt;português&gt;</value>
   </data>
 </root>

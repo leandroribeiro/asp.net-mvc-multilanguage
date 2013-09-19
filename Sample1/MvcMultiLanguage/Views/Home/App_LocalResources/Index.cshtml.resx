@@ -120,4 +120,7 @@
   <data name="MensagemLocal" xml:space="preserve">
     <value>Mensagem local padrão !</value>
   </data>
+  <data name="Titulo" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
 </root>

@@ -61,11 +61,29 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Inicio.
+        /// </summary>
+        internal static string HomeIndex {
+            get {
+                return ResourceManager.GetString("HomeIndex", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Mensagem global padrão !.
         /// </summary>
         internal static string MensagemGlobal {
             get {
                 return ResourceManager.GetString("MensagemGlobal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to MVC Multi-linguagens &lt;português&gt;.
+        /// </summary>
+        internal static string NomeAplicacao {
+            get {
+                return ResourceManager.GetString("NomeAplicacao", resourceCulture);
             }
         }
     }

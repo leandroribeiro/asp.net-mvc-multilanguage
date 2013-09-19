@@ -6,18 +6,16 @@ using System.Web.Mvc;
 namespace Mvc3MultiLanguageSample1.Controllers {
     public class HomeController : BaseController {
 
-        //[Localization]
         public ActionResult Index() {
 
+            //Linguagem Atribuida a Thread da Aplicação
             var culture = Thread.CurrentThread.CurrentUICulture;
-            //ViewBag.Message = "Welcome to ASP.NET MVC!";
 
-            //System.Threading.Thread.CurrentThread.CurrentUICulture.ToString(
+            ViewBag.Culture = String.Format("{0} / {1} / {2}", culture.Name, culture.NativeName, culture.DisplayName);
 
+            //Linguagem Configurado no Navegador do Usuário
             if (Request.UserLanguages != null && Request.UserLanguages.Any())
-                ViewBag.Message = Request.UserLanguages[0];
-
-            ViewBag.Culture = String.Format("{0}/{1}/{2}", culture.Name, culture.NativeName, culture.DisplayName);
+                ViewBag.BrowserCulture = Request.UserLanguages[0];
 
             return View();
         }
@@ -29,9 +27,5 @@ namespace Mvc3MultiLanguageSample1.Controllers {
 
         //    return RedirectToAction("Index");
         //}
-
-        public ActionResult About() {
-            return View();
-        }
     }
 }
