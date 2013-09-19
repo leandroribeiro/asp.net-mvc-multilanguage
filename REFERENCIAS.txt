@@ -1,5 +1,14 @@
-SAMPLE 1
+===============
+= REFERÊNCIAS =
+===============
+
+Sample 1 - Mvc3MultiLanguageSample1
+------------------------------------
+# Não está implementando o exemplo fielmente, foi apenas usado como referência.
 http://geekswithblogs.net/shaunxu/archive/2010/05/06/localization-in-asp.net-mvc-ndash-3-days-investigation-1-day.aspx
 
-SAMPLE 2
+
+Sample 2 - Mvc3MultiLanguageSample2
+------------------------------------
+
 http://geekswithblogs.net/shaunxu/archive/2010/05/06/localization-in-asp.net-mvc-ndash-3-days-investigation-1-day.aspx
