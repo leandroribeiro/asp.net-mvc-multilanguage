@@ -10,5 +10,10 @@ http://geekswithblogs.net/shaunxu/archive/2010/05/06/localization-in-asp.net-mvc
 
 Sample 2 - Mvc3MultiLanguageSample2
 ------------------------------------
-
+# Implementando exemplo quase fielmente, apenas não separei os Controllers e View Models em projetos separados
 http://geekswithblogs.net/shaunxu/archive/2010/05/06/localization-in-asp.net-mvc-ndash-3-days-investigation-1-day.aspx
+
+
+Sample 3 
+------------------------------------
+
