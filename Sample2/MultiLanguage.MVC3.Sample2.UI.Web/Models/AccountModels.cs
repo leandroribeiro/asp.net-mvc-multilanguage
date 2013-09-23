@@ -5,6 +5,7 @@ using System.Globalization;
 using System.Web.Mvc;
 using System.Web.Security;
 using MvcMultiLanguageSample2.Attributes;
+using MultiLanguage.MVC3.Sample2.Resources;
 
 namespace MvcMultiLanguageSample2.Models {
 
@@ -30,9 +31,9 @@ namespace MvcMultiLanguageSample2.Models {
 
         [Required(
             ErrorMessageResourceName = "LogOnModel_UserName_Required",
-            ErrorMessageResourceType = typeof(Resources.Global))]
+            ErrorMessageResourceType = typeof(Global))]
         //[Display(Name = "User name")]
-        [LocalizationDisplayName("LogOnModel_UserName_Required", typeof(Resources.Global))]
+        [LocalizationDisplayName("LogOnModel_UserName_Required", typeof(Global))]
         public string UserName { get; set; }
 
         [Required]
